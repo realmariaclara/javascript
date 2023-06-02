@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="ex025.css">
+    <script src="ex025.js"></script>
+</head>
+<body>
+    <header>
+        <br>
+        <h1>Cadastro de Usuários</h1>
+    </header>
+    <section>
+        <br>
+        <label>Nome do usuário</label >
+        <input type="text" id="nome" placeholder="Digite o seu nome ">
+        <br>
+        <label>Usuário</label>
+        <input type="text" id="login" placeholder="Informe o seu Login">
+        <br>
+        <label>Senha</label>
+        <input type="password" id="senha" placeholder="Informe a senha">
+        <br>
+        <label>Confirmar senha</label>
+        <input type="password" id="confirmar" placeholder="Confirmar senha">
+        <br>
+        <button id="cadastro" onclick="Cadastrar()">Cadastrar Usuário</button>
+        <button id="limpar" onclick="BotaoLimpar()">Limpar</button>
+        <p id="escolhido"></p>
+        <h1>Resultados</h1>
+        <div id="resultados"></div>
+    </section>
+    <footer>
+        <p>Sesi/Senai - Curso Desenvolvimento de Sistemas</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitas</title>
+</head>
+<body>
+    <h1>Registro de visitas</h1>
+    <button onclick="BotaoVisita()">Cadastrar nova visita</button>
+    <p>Pessoas que passaram por aqui...</p>
+    <p id="cadastro"></p>
+</body>
+
+    <script>
+        function BotaoVisita(){ 
+            var s1 = prompt("Digite aqui o nome da nova pessoa")
+            document.getElementById("cadastro").innerHTML +=
+            ` <br> &#x1F596 Acabei de cadastrar <strong> ${s1} </strong> no sistema. `
+        }
+
+
+    </script>
+
+</html>

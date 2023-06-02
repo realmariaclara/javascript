@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de filmes - adicionando</title>
+    <link rel="stylesheet" href="ex024.css">
+</head>
+<body>
+    <header>
+        <br>
+        <h1>Listas de filme e imagem </h1>
+    </header>
+    <section>
+        <br>
+        <label>Nome do filme</label >
+        <input type="text" id="nome" placeholder="Digite o nome do filme">
+        <br>
+        <label>Link da imagem </label>
+        <input type="text" id="imagem" placeholder="Informe o link da imagem">
+        <br>
+        <button id="lista" onclick="BotaoVetor()">Cadastrar Filmes</button>
+        <button id="indicar" onclick="BotaoIndicar()">Indicar Filme</button>
+        <button id="limpar" onclick="BotaoLimpar()">Limpar</button>
+        <p id="escolhido"></p>
+        <h1>Resultados</h1>
+        <div id="resultados"></div>
+    </section>
+    <footer>
+        <p>Sesi/Senai - Curso Desenvolvimento de Sistemas</p>
+    </footer>
+</body>
+<script src="ex024.js"></script>
+</html>

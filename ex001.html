@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+</head>
+<body>
+    <h1>Testando botões com o alerta</h1>
+    <button onclick="Botao1()">Botão 1</button>
+    <button onclick="Botao2()">Botão 2</button>
+    <button onclick="Botao3()">Botão 3</button>
+    <h1>Botão com Cor</h1>
+    <button onclick="BotaoCorFundo1()">Alterar cor de fundo do botão 1</button>
+    <button onclick="BotaoCorFundo2()">Alterar cor de fundo do botão 2</button>
+    <button onclick="BotaoCorFundo3()">Alterar cor de fundo do botão 3</button>
+
+
+    <script>
+        function Botao1(){
+            alert("Você clicou no botão 1")
+        }
+        function Botao2(){
+            alert("Você clicou no botão 2")
+        }
+        function Botao3(){
+            alert("Você clicou no botão 3")
+        }
+    
+
+        
+        function BotaoCorFundo1(){
+            document.body.style.backgroundColor = "#836FFF"
+        }
+        function BotaoCorFundo2(){
+            document.body.style.backgroundColor = "#C71585"
+        }
+        function BotaoCorFundo3(){
+            document.body.style.backgroundColor = "#B0E0E6"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de Números</title>
+</head>
+<body>
+    <h1>Somador de Números</h1>
+    <!--Criar um botão para clicar-->
+    <button onclick="BotaoSoma()">Clique para somar </button>
+</body>
+
+
+    <script>
+
+        function BotaoSoma() {
+            //Recebe o valor de um prompt - n1
+            var n1 = prompt("Digite um número:")
+            //Recebe o valor do segundo prompt - n2
+            var n2 = prompt("Digite outro número")
+            //Convertendo para number
+            n1 = Number(n1)
+            n2 = Number(n2)
+            //Faz a soma dos prompts
+            var soma = n1 + n2
+            //Exibe o resultado, só aparece quando clicamos para inspecionar
+            console.log(soma)
+        }
+
+        //já faz a conversão direto
+        var n3 = Number(prompt("Digite um número"))
+        var n3 = Number(prompt("Digite um número"))
+
+    </script>
+
+
+
+
+</html>
